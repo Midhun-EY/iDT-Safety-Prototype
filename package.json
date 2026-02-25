@@ -1,0 +1,21 @@
+{
+  "name": "iDT-Safety-Prototype",
+  "version": "1.0.0",
+  "description": "A Node.js project with SQL database connection",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "sequelize": "^6.6.5",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
