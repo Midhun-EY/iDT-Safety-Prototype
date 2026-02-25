@@ -4,7 +4,7 @@ const controller = require('../controllers/index');
 
 // Define routes
 router.get('/', (req, res) => {
-    res.send('Welcome to the Node SQL Project!');
+    res.send('Welcome to the iDT-Safety-Prototype');
 });
 
 // Example CRUD routes
